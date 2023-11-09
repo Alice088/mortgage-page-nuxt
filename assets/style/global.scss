@@ -1,0 +1,23 @@
+html {
+	font-family: "Gilroy", serif;
+	scroll-behavior: smooth;
+}
+
+.specialText {
+	display: flex;
+	width: fit-content;
+	height: fit-content;
+	padding: 10px;
+	align-items: center;
+	gap: 10px;
+	flex-shrink: 0;
+	border-radius: 10px;
+
+	background: $n2-green-color;
+	color: $white;
+
+	&-white {
+		background: $white;
+		color: $n2-green-color;
+	}
+}
